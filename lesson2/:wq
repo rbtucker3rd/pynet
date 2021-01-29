@@ -1,0 +1,4 @@
+logging buffered 10000
+no logging console
+clock timezone PST -5 0
+

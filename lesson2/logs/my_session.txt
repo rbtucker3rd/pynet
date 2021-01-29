@@ -1,0 +1,12 @@
+
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#
+cisco3#delete bootflash:/rob_test1.txt
+Delete filename [rob_test1.txt]? 
+Delete bootflash:/rob_test1.txt? [confirm]y
+cisco3#
+cisco3#
