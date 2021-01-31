@@ -1,4 +1,4 @@
-logging buffered 10000
+logging buffered 20000
 no logging console
-clock timezone PST -5 0
+clock timezone EST -5 0
 
