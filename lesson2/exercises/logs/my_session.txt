@@ -50,7 +50,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 107 seconds
+Time remaining: 94 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15
@@ -66,7 +66,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 107 seconds
+Time remaining: 94 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15
@@ -82,7 +82,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 107 seconds
+Time remaining: 94 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15
@@ -98,7 +98,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 107 seconds
+Time remaining: 94 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15
@@ -123,7 +123,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 105 seconds
+Time remaining: 90 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15
@@ -139,7 +139,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 105 seconds
+Time remaining: 90 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15
@@ -155,7 +155,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 105 seconds
+Time remaining: 90 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15
@@ -171,7 +171,7 @@ System Name: nxos1.lasthop.io
 System Description: Cisco Nexus Operating System (NX-OS) Software 9.2(3)
 TAC support: http://www.cisco.com/tac
 Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
-Time remaining: 105 seconds
+Time remaining: 90 seconds
 System Capabilities: B, R
 Enabled Capabilities: B, R
 Management Address: 10.0.2.15

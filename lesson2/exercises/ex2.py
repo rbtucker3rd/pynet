@@ -10,6 +10,7 @@ nxos2 = {
     "password": '88newclass',
     "session_log": 'logs/my_session.txt',
     "global_delay_factor": 2,
+    "fast_cli": False,
 }
 
 net_conn = ConnectHandler(**nxos2)
