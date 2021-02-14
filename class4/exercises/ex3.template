@@ -1,0 +1,19 @@
+Value INTF (\S+)
+Value LINE_STATUS (\S+)
+Value ADMIN_STATE (\S+)
+Value MAC_ADDR (\S+)
+Value MTU (\d+)
+Value DUPLEX (.*duplex)
+Value SPEED (\d+)
+
+Start
+  #^cisco ${MODEL}\s+.*processor with ${MEMORY}/\d+K bytes of memory
+  #^Processor board ID ${SERIAL_NUM}
+  #^Configuration register is ${CONFIG_REGISTER} -> Record
+  ^Ethernet${INTF}\s+is ${LINE_STATUS}\s*$$
+  ^admin state is ${ADMIN_STATE}.*$$
+  ^\s+.*Ethernet, address: ${MAC_ADDR}.*$$
+  ^\s+MTU ${MTU}\s+.*$$
+  ^${DUPLEX}, ${SPEED}.*$$
+
+  

@@ -1,0 +1,11 @@
+Value MAC_ADDR (\S+)
+Value IP_ADDR (\S+)
+Value NAME (\S+)
+Value INTF (\S+)
+
+Start
+  ^MAC Address.*Flags\s*$$ -> ShowARP
+
+ShowARP
+  ^${MAC_ADDR}\s+${IP_ADDR}\s+${NAME}\s+${INTF}\s+.*$$ -> Record
+

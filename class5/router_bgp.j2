@@ -1,0 +1,7 @@
+router bgp 10
+  neighbor 10.1.20.2 remote-as 20
+    update-source loopback99
+    ebgp-multihop 2
+    address-family ipv4 unicast
+  neighbor 10.1.30.2 remote-as 30
+    address-family ipv4 unicast

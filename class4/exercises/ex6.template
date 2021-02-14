@@ -1,0 +1,16 @@
+Value Filldown ROUTER_ID (\S+)
+Value Filldown LOCAL_AS (\d+)
+Value NEIGHBOR (\S+)
+Value REMOTE_AS (\d+)
+Value UP_DOWN (\S+)
+Value STATE_PR (\S+)
+
+Start
+  ^BGP router identifier ${ROUTER_ID}, local AS number ${LOCAL_AS}\s*$$
+  ^Neighbor.*PfxRcd.*$$ -> BGPNeighbor
+
+BGPNeighbor
+  ^${NEIGHBOR}\s+\d+\s+${REMOTE_AS}\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+${UP_DOWN}\s+${STATE_PR} -> Record
+
+EOF
+

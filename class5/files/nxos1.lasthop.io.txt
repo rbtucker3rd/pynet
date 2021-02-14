@@ -1,0 +1,6 @@
+interface Ethernet1/4
+  ip address 10.4.100.1/24
+!
+router bgp 22
+ neighbor 10.4.100.2 remote-as 22
+  address-family ipv4 unicast
